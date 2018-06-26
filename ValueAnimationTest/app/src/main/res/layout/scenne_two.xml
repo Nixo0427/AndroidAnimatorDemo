@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:id="@+id/scenne2_img"
+        android:src="@drawable/b"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:text="askdljasldkjasldkjasdkl"
+        android:layout_below="@id/scenne2_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:onClick="onClick"
+        android:id="@+id/go_scenne1"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="←返回"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
